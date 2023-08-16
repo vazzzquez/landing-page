@@ -1,0 +1,17 @@
+.logo{
+    width: 150px;
+    height: auto;
+}
+.hero img{
+    width: 500px;
+    height: auto;
+}
+.contents img{
+    width:250px;
+    height: 200px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
