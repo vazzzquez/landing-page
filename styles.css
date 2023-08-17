@@ -1,6 +1,13 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 .logo{
-    width: 150px;
-    height: auto;
+    font-size: 24px;
+    color: #f9faf8;
+
 }
 .hero img{
     width: 500px;
@@ -14,4 +21,34 @@
 .body{
     display: flex;
     flex-direction: column;
+}
+
+.header, .hero,  .footer{
+    background-color: #1f2937;
+}
+ .quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937;
+ }
+
+ .headers{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+ }
+  
+.links, .texto{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.cards .headers{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+button, .cuadro{
+    background-color: #3882f6;
 }
